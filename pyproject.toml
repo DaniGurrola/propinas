@@ -1,0 +1,9 @@
+[project]
+name = "propinas"
+version = "0.1.0"
+description = "Calculadora de propinas"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flet>=0.80.5",
+]
