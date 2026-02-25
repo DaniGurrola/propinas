@@ -19,11 +19,11 @@ def main(page: ft.Page):
         weight=ft.FontWeight.BOLD,
     )
 
-    # 🔹 Slider entre 10% y 30% con 8 opciones
+
     slider = ft.Slider(
         min=10,
         max=30,
-        divisions=7,  # 8 valores
+        divisions=7,  
         value=10,
         label="{value}%",
     )
