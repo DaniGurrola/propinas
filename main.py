@@ -19,7 +19,6 @@ def main(page: ft.Page):
         weight=ft.FontWeight.BOLD,
     )
 
-
     slider = ft.Slider(
         min=10,
         max=30,
@@ -57,6 +56,5 @@ def main(page: ft.Page):
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         )
     )
-
 
 ft.run(main)
